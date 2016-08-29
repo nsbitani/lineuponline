@@ -33,5 +33,6 @@ $(document).ready(function(){
         $("#next").click(function(){
             $("#yay").addClass('hidden');
             $("#lineup").removeClass('hidden');
+            document.getElementById('main').style.backgroundImage="url(LULBoss.png)";
         });
     });

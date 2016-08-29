@@ -1,5 +1,9 @@
 body{
 	background-color: grey;
+	background: -webkit-linear-gradient(black, magenta 50%); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(white, grey); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(white, grey); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(black, magenta 50%); /* Standard syntax */
 	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
 }
 
@@ -29,16 +33,19 @@ mark{
 
 #main{
 	margin: auto;
-	width: 75%;
-	height: 400px;
-	background-color: black;
+	width: 50%;
+	height: 350px;
+	border: 2px solid black;
 	border-radius: 25px;
+	background-image: url('LULoffice.png');
+	background-size:100%;
 }
 
 #info{
+	border: 2px solid black;
 	text-align: center;
 	margin: auto;
-	width: 75%;
+	width: 50%;
 	height: 100px;
 	background-color: darkgrey;
 	border-radius: 25px;
@@ -46,7 +53,7 @@ mark{
 }
 
 .footer {
-    background: grey;
+    /*background: grey;*/
     padding: 10px 0;
 }
 
